@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
-    text-align: center;
 }
 
 .title {
@@ -10,4 +9,42 @@
     font-size: 20px;
     padding: 2px 10px 2px 10px;
     margin: auto;
+    text-align: center;
+}
+.main-section {
+    background-color: azure;
+    padding: 15px 40px 15px 40px;
+    margin: 20px 20px 10px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+h2 {
+    color: rgb(93, 118, 208);
+    background-color: rgb(211, 249, 232);
+    padding: 30px 30px 30px 30px;
+}
+.show-answer {
+    text-align: center;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 5px 20px 5px;
+    border: 10px;
+    border-radius: 20%;
+    background-color: rgb(202, 246, 255);
+    color: rgb(41, 63, 153);
+}
+.tags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: beige;
+    margin: 10px;
+    padding: 5px;
+    gap: 5px;
+}
+.footer{
+    position: fixed;
 }
