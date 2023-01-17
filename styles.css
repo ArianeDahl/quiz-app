@@ -52,6 +52,15 @@ body {
     padding: 10px;
     gap: px;
 }
-.footer {
+.footer__list {
+    list-style-type: none;
     position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: inherit;
+    background-color: #2d52a3e1;
+}
+.footer__list-item {
+    color: black;
 }
