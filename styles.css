@@ -15,8 +15,6 @@
     background-color: azure;
     padding: 15px 40px 15px 40px;
     margin: 20px 20px 10px 20px;
-    display: flex;
-    flex-flow: column wrap;
     text-align: center;
 }
 h2 {
