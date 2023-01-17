@@ -3,26 +3,30 @@
     font-family: Helvetica, sans-serif;
 }
 
-.title {
+body {
+    line-height: 1.5;
+}
+
+.header_title {
     color: darkcyan;
     background-color: lightblue;
-    font-size: 20px;
-    padding: 2px 10px 2px 10px;
+    font-size: 30px;
+    padding: 20px 10px 20px 10px;
     margin: auto;
     text-align: center;
 }
-.main-section {
+.card {
     background-color: azure;
     padding: 15px 40px 15px 40px;
     margin: 20px 20px 10px 20px;
     text-align: center;
 }
-h2 {
+.card__question {
     color: rgb(93, 118, 208);
     background-color: rgb(211, 249, 232);
     padding: 30px 30px 30px 30px;
 }
-.show-answer {
+.card__button-answer {
     text-align: center;
     font-size: 17px;
     padding: 10px 20px 10px 20px;
@@ -32,17 +36,22 @@ h2 {
     background-color: rgb(202, 246, 255);
     color: rgb(41, 63, 153);
 }
-.tags {
+
+.card__tag-list {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
+    align-items: flex-start;
+    list-style-type: none;
+}
+.card__tag-list-item {
+    display: flex;
     flex-wrap: wrap;
+    align-self: flex-end;
     background-color: beige;
     margin: 10px;
-    padding: 5px;
-    gap: 5px;
+    padding: 10px;
+    gap: px;
 }
-.footer{
+.footer {
     position: fixed;
 }
