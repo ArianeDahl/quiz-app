@@ -46,7 +46,7 @@
     padding: 10px;
    border: soli;
 }
-.footer__list {
+.navbar__list {
     list-style-type: none;
     position: fixed;
     bottom: 0;
@@ -58,6 +58,6 @@
     z-index: inherit;
     background-color: #2d52a3e1;
 }
-.footer__list-item {
-    color: black;
+.navbar__list-item {
+    olor: black;
 }
