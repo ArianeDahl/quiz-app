@@ -50,14 +50,17 @@ body {
     background-color: beige;
     margin: 10px;
     padding: 10px;
-    gap: px;
+   border: soli;
 }
 .footer__list {
     list-style-type: none;
     position: fixed;
     bottom: 0;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     z-index: inherit;
     background-color: #2d52a3e1;
 }
