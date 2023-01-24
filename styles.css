@@ -61,6 +61,11 @@
     z-index: inherit;
     background-color: #2d52a3e1;
 }
+
+.navbar__list li a:hover {
+    color: black;
+}
+
 .navbar__list-item {
     color: black;
 }
