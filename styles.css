@@ -54,7 +54,7 @@
     position: fixed;
     bottom: 0;
     margin: 0;
-    padding: 10px;
+    padding: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -62,10 +62,10 @@
     background-color: #2d52a3e1;
 }
 
-.navbar__list li a:hover {
-    color: black;
+.navbar__list-item {
+    color: darkblue;
+    display: block;
+    padding: 10px
 }
 
-.navbar__list-item {
-    color: black;
-}
+
