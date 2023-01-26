@@ -4,7 +4,7 @@
 .header_title {
     color: darkcyan;
     background-color: lightblue;
-    font-size: 30px;
+    font-size: 50px;
     padding: 20px 10px 20px 10px;
     margin: auto;
     text-align: center;
@@ -36,28 +36,36 @@
     justify-content: flex-start;
     align-items: flex-start;
     list-style-type: none;
+    padding-left: 0;
 }
 .card__tag-list-item {
     display: flex;
     flex-wrap: wrap;
     align-self: flex-end;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     margin: 10px;
-    padding: 10px;
-   border: soli;
+    padding: 5px;
+    border: solid;
+    border-color: rgb(31, 46, 125);
+    border-radius: 20%;
 }
 .navbar__list {
     list-style-type: none;
     position: fixed;
     bottom: 0;
     margin: 0;
-    padding: 10px;
+    padding: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
     z-index: inherit;
     background-color: #2d52a3e1;
 }
+
 .navbar__list-item {
-    olor: black;
+    color: darkblue;
+    display: block;
+    padding: 10px
 }
+
+
